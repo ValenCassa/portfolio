@@ -6,8 +6,7 @@ import Ellipse6 from '../public/img/Ellipse 16.svg'
 import Ellipse7 from '../public/img/Ellipse 17.svg'
 import Ellipse8 from '../public/img/Ellipse 18.svg'
 import Ellipse9 from '../public/img/Ellipse 19.svg'
-import { Box, Container, Image } from '@chakra-ui/react'
-import styled from '@emotion/styled'
+import { Box, Container } from '@chakra-ui/react'
 
 
 
@@ -17,8 +16,8 @@ export const Circle = () => {
       return (
 
         <div>
-            <Container pos='relative' maxW='container.md'>
-                            
+
+            <Container pos='relative' maxW='container.xl'> 
                 <Box mt='14em' ml='-2em' pos='absolute' zIndex={-1}>
                 <Ellipse />
                 </Box>
@@ -51,8 +50,7 @@ export const Circle = () => {
                 </Box>
                 <Box  right={0} mt='15em' mr='4em' pos='absolute' zIndex={4}>
                 <Ellipse9 />
-                </Box>
-
+                </Box> 
             </Container>
 
         </div>

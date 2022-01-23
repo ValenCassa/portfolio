@@ -7,6 +7,7 @@ import thumbPortfolio from '../public/img/first-portfolio.png'
 import thumbCoder from '../public/img/project-coder.png'
 import thumbJs from '../public/img/jscourse.png'
 import thumbNext from '../public/img/next-portfolio.png'
+import thumbBlog from '../public/img/bloglistapi.png'
 import { BluredContainer, TextSectionTitle } from '../components/container-styles'
 
 
@@ -48,10 +49,19 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="portfolio-next"
-            title="Next.js Portfolio"
+            title="Portfolio"
             thumbnail={thumbNext}
           >
-            I wanted to learn React and Next, so I build this! 
+            I wanted to learn React and Next, so I built this! 
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="blogAPI"
+            title="BlogAPI"
+            thumbnail={thumbBlog}
+          >
+            A BlogAPI I made in order to learn backend! 
           </WorkGridItem>
         </Section>
       </SimpleGrid>

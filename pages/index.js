@@ -84,8 +84,8 @@ function Home( ) {
                 </ListItem>
 
                 <ListItem>
-                  <Link href='https://twitter.com/valen_cassa' target='_blank'>
-                  <Button _hover={{background: useColorModeValue('#202020', '#E7E7E7'), color: useColorModeValue('#E7E7E7', '#202020')}} color={useColorModeValue('#202020', '#E7E7E7')} background='transparent' leftIcon={<Icon as={ FaTwitter } />}>@valen_cassa</Button>
+                  <Link href='https://twitter.com/devcassa' target='_blank'>
+                  <Button _hover={{background: useColorModeValue('#202020', '#E7E7E7'), color: useColorModeValue('#E7E7E7', '#202020')}} color={useColorModeValue('#202020', '#E7E7E7')} background='transparent' leftIcon={<Icon as={ FaTwitter } />}>@devcassa</Button>
                   </Link>
                 </ListItem>
                 <ListItem>
@@ -98,8 +98,6 @@ function Home( ) {
           </BluredContainer>
         </Section>
     </Layout>
-
-      
   )
 }
 
